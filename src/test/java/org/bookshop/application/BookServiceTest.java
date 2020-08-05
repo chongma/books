@@ -10,7 +10,7 @@ import org.apache.openwebbeans.junit5.Cdi;
 import org.bookshop.entities.Book;
 import org.junit.jupiter.api.Test;
 
-@Cdi()
+@Cdi
 class BookServiceTest {
 
 	@Inject
